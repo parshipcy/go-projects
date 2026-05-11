@@ -1,7 +1,4 @@
-# Help GitHub Linguist classify this repo (language bar + API /languages).
-# See: https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
-*.go linguist-detectable=true
-go.mod linguist-detectable=true
-go.sum linguist-detectable=true
+# Linguist (language bar): https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+*.go linguist-language=Go
 *.html linguist-detectable=true
 README.md linguist-documentation
